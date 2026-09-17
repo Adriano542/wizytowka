@@ -135,6 +135,14 @@ table td:nth-child(1) {
     width: 50px;
 }
 
+table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+table tbody tr:hover {
+    background-color: rgba(46, 204, 113, 0.25); 
+}
+
 footer {
     width: 100%;
     height: auto;
